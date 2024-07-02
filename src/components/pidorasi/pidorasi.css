@@ -1,0 +1,27 @@
+.photos-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 10px; 
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.add-cat-button{
+    margin: 1vh;
+    border: none;
+    background-color: #333;
+    width: 30%;
+    height: 5vh;
+    color: white;
+    font-size: larger;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.add-cat-button:hover{
+    background-color: #555;
+}
